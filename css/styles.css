@@ -1,0 +1,135 @@
+
+#welcome {
+	text-align:center;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+#gallery {
+
+	margin-left:8px;
+
+
+}
+h12, h13{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	position:relative;
+
+	
+
+}
+
+
+	
+h12{
+	font-size: 30px;
+	line-height:0.9;
+	color: #213458;
+	text-align:center;
+	margin-top:10px;
+	padding-bottom:20px;
+
+
+	}
+
+	
+h13{
+	font-size: 22px;
+	line-height:1.3;
+	color: #213458;
+	text-transform:none;
+	font-style:italic;
+	text-align:left;
+	margin-top:17px;
+	padding-bottom:6px;
+  
+
+	}
+	
+	
+.group5 {
+	float: left;
+	width: 850px;
+	position: relative;
+	padding:10px;
+
+
+
+	}
+	
+
+	
+	#intro{
+	width: 750px;
+	position: relative;
+	float: left ;
+	height:450px;
+	padding:10px;
+	background:#F3ECEC;
+	margin-top:50px;
+	margin-left:75px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+
+
+	}
+
+
+
+
+
+article {
+
+width: 900px;
+height:100px;
+
+}	
+
+
+
+aaa
+
+#slides {
+	position:relative;
+	top:5px;
+	left:4px;
+
+	z-index:100;
+
+}
+
+
+.pagination {
+	margin-top:100px;
+	width:100x;
+	position:absolute;
+	top:330px;
+	left:600px;
+	z-index:1000;
+	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
+
